@@ -1,0 +1,65 @@
+body .footer {
+  width: 100%;
+  background-color: var(--dark);
+
+  padding: 50px 0;
+}
+body .footer .footerWrapp {
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+}
+body .footer .footerWrapp .footerSections {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}
+body .footer .footerWrapp .footerSections .sectionAddress {
+  width: 25%;
+  color: var(--light);
+}
+body .footer .footerWrapp .footerSections .sectionAddress h4 {
+  padding-bottom: 30px;
+  font-size: 35px;
+}
+body .footer .footerWrapp .footerSections .sectionAddress p {
+  padding-top: 10px;
+  color: var(--light);
+}
+body .footer .footerWrapp .footerSections .sectionAddress p:nth-child(4) {
+  padding-top: 50px;
+}
+body .footer .footerWrapp .footerSections .section {
+  width: 25%;
+  color: var(--light);
+}
+body .footer .footerWrapp .footerSections .section h4 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+body .footer .footerWrapp .footerSections .section p:nth-child(5) {
+  padding-top: 50px;
+}
+body .footer .footerWrapp .footerSections .section p {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+/* media? */
+
+/* body .footer .footerWrapp .footerSections .empty {
+  display: none;
+}
+
+  body .footer .footerWrapp .footerSections {
+    flex-flow: column;
+  }
+  body .footer .footerWrapp .footerSections .sec {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+  body .footer .footerWrapp .footerSections .sec h4 {
+    padding-bottom: 10px;
+  } */
